@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B972DB941D2B9FD400341166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DB931D2B9FD400341166 /* main.m */; };
+		B972DBA21D2B9FD400341166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B972DBA01D2B9FD400341166 /* LaunchScreen.storyboard */; };
+		B972DBB01D2BA2D700341166 /* DSMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBAF1D2BA2D700341166 /* DSMainController.m */; };
+		B972DBB31D2BA37100341166 /* DSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBB21D2BA37100341166 /* DSTabBar.m */; };
+		B972DBB61D2BA60500341166 /* DSTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBB51D2BA60500341166 /* DSTabBarItem.m */; };
+		B972DBB81D2BA61300341166 /* DSTabBarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = B972DBB71D2BA61300341166 /* DSTabBarItem.xib */; };
+		B972DBBD1D2BB9DD00341166 /* DSWeChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBBC1D2BB9DD00341166 /* DSWeChatController.m */; };
+		B972DBC01D2BB9F300341166 /* DSAddressBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBBF1D2BB9F300341166 /* DSAddressBookController.m */; };
+		B972DBC31D2BBA0200341166 /* DSFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBC21D2BBA0200341166 /* DSFindController.m */; };
+		B972DBC61D2BBA1000341166 /* DSMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBC51D2BBA1000341166 /* DSMineController.m */; };
+		B972DBCF1D2BBC5E00341166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B972DBCB1D2BBC5E00341166 /* AppDelegate.m */; };
+		B972DBD01D2BBC5E00341166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B972DBCC1D2BBC5E00341166 /* Assets.xcassets */; };
+		B972DBD21D2BBC5E00341166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B972DBCE1D2BBC5E00341166 /* Main.storyboard */; };
+		B972DBD41D2BBC6E00341166 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B972DBD31D2BBC6E00341166 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B972DB8F1D2B9FD400341166 /* HJ_WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJ_WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B972DB931D2B9FD400341166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B972DBA11D2B9FD400341166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B972DBAE1D2BA2D700341166 /* DSMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMainController.h; sourceTree = "<group>"; };
+		B972DBAF1D2BA2D700341166 /* DSMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMainController.m; sourceTree = "<group>"; };
+		B972DBB11D2BA37100341166 /* DSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTabBar.h; sourceTree = "<group>"; };
+		B972DBB21D2BA37100341166 /* DSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTabBar.m; sourceTree = "<group>"; };
+		B972DBB41D2BA60500341166 /* DSTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTabBarItem.h; sourceTree = "<group>"; };
+		B972DBB51D2BA60500341166 /* DSTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTabBarItem.m; sourceTree = "<group>"; };
+		B972DBB71D2BA61300341166 /* DSTabBarItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSTabBarItem.xib; sourceTree = "<group>"; };
+		B972DBBA1D2BAACE00341166 /* DSGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSGlobal.h; sourceTree = "<group>"; };
+		B972DBBB1D2BB9DD00341166 /* DSWeChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWeChatController.h; sourceTree = "<group>"; };
+		B972DBBC1D2BB9DD00341166 /* DSWeChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWeChatController.m; sourceTree = "<group>"; };
+		B972DBBE1D2BB9F300341166 /* DSAddressBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAddressBookController.h; sourceTree = "<group>"; };
+		B972DBBF1D2BB9F300341166 /* DSAddressBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAddressBookController.m; sourceTree = "<group>"; };
+		B972DBC11D2BBA0200341166 /* DSFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSFindController.h; sourceTree = "<group>"; };
+		B972DBC21D2BBA0200341166 /* DSFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSFindController.m; sourceTree = "<group>"; };
+		B972DBC41D2BBA1000341166 /* DSMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMineController.h; sourceTree = "<group>"; };
+		B972DBC51D2BBA1000341166 /* DSMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMineController.m; sourceTree = "<group>"; };
+		B972DBCA1D2BBC5E00341166 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B972DBCB1D2BBC5E00341166 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B972DBCC1D2BBC5E00341166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B972DBCE1D2BBC5E00341166 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B972DBD31D2BBC6E00341166 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		B972DBD51D2BBD0A00341166 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B972DB8C1D2B9FD400341166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B972DB861D2B9FD400341166 = {
+			isa = PBXGroup;
+			children = (
+				B972DB911D2B9FD400341166 /* HJ_WeChat */,
+				B972DB901D2B9FD400341166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B972DB901D2B9FD400341166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B972DB8F1D2B9FD400341166 /* HJ_WeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B972DB911D2B9FD400341166 /* HJ_WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				B972DBC91D2BBC5E00341166 /* Others */,
+				B972DBB91D2BAAB300341166 /* DSTools */,
+				B972DBA91D2BA29E00341166 /* DSEnterSetting */,
+				B972DBD51D2BBD0A00341166 /* Info.plist */,
+				B972DBA01D2B9FD400341166 /* LaunchScreen.storyboard */,
+				B972DBD31D2BBC6E00341166 /* Default-568h@2x.png */,
+				B972DB921D2B9FD400341166 /* Supporting Files */,
+				B972DBBB1D2BB9DD00341166 /* DSWeChatController.h */,
+				B972DBBC1D2BB9DD00341166 /* DSWeChatController.m */,
+				B972DBBE1D2BB9F300341166 /* DSAddressBookController.h */,
+				B972DBBF1D2BB9F300341166 /* DSAddressBookController.m */,
+				B972DBC11D2BBA0200341166 /* DSFindController.h */,
+				B972DBC21D2BBA0200341166 /* DSFindController.m */,
+				B972DBC41D2BBA1000341166 /* DSMineController.h */,
+				B972DBC51D2BBA1000341166 /* DSMineController.m */,
+			);
+			path = HJ_WeChat;
+			sourceTree = "<group>";
+		};
+		B972DB921D2B9FD400341166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B972DB931D2B9FD400341166 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B972DBA91D2BA29E00341166 /* DSEnterSetting */ = {
+			isa = PBXGroup;
+			children = (
+				B972DBAA1D2BA29E00341166 /* DSMainController */,
+			);
+			path = DSEnterSetting;
+			sourceTree = "<group>";
+		};
+		B972DBAA1D2BA29E00341166 /* DSMainController */ = {
+			isa = PBXGroup;
+			children = (
+				B972DBAB1D2BA29E00341166 /* Controller */,
+				B972DBAC1D2BA29E00341166 /* Resources */,
+				B972DBAD1D2BA29E00341166 /* View */,
+			);
+			path = DSMainController;
+			sourceTree = "<group>";
+		};
+		B972DBAB1D2BA29E00341166 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B972DBAE1D2BA2D700341166 /* DSMainController.h */,
+				B972DBAF1D2BA2D700341166 /* DSMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B972DBAC1D2BA29E00341166 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B972DBAD1D2BA29E00341166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B972DBB11D2BA37100341166 /* DSTabBar.h */,
+				B972DBB21D2BA37100341166 /* DSTabBar.m */,
+				B972DBB41D2BA60500341166 /* DSTabBarItem.h */,
+				B972DBB51D2BA60500341166 /* DSTabBarItem.m */,
+				B972DBB71D2BA61300341166 /* DSTabBarItem.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B972DBB91D2BAAB300341166 /* DSTools */ = {
+			isa = PBXGroup;
+			children = (
+				B972DBBA1D2BAACE00341166 /* DSGlobal.h */,
+			);
+			path = DSTools;
+			sourceTree = "<group>";
+		};
+		B972DBC91D2BBC5E00341166 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B972DBCA1D2BBC5E00341166 /* AppDelegate.h */,
+				B972DBCB1D2BBC5E00341166 /* AppDelegate.m */,
+				B972DBCC1D2BBC5E00341166 /* Assets.xcassets */,
+				B972DBCE1D2BBC5E00341166 /* Main.storyboard */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B972DB8E1D2B9FD400341166 /* HJ_WeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B972DBA61D2B9FD400341166 /* Build configuration list for PBXNativeTarget "HJ_WeChat" */;
+			buildPhases = (
+				B972DB8B1D2B9FD400341166 /* Sources */,
+				B972DB8C1D2B9FD400341166 /* Frameworks */,
+				B972DB8D1D2B9FD400341166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJ_WeChat;
+			productName = HJ_WeChat;
+			productReference = B972DB8F1D2B9FD400341166 /* HJ_WeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B972DB871D2B9FD400341166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "郭洪军";
+				TargetAttributes = {
+					B972DB8E1D2B9FD400341166 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B972DB8A1D2B9FD400341166 /* Build configuration list for PBXProject "HJ_WeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B972DB861D2B9FD400341166;
+			productRefGroup = B972DB901D2B9FD400341166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B972DB8E1D2B9FD400341166 /* HJ_WeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B972DB8D1D2B9FD400341166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B972DBD21D2BBC5E00341166 /* Main.storyboard in Resources */,
+				B972DBA21D2B9FD400341166 /* LaunchScreen.storyboard in Resources */,
+				B972DBD01D2BBC5E00341166 /* Assets.xcassets in Resources */,
+				B972DBB81D2BA61300341166 /* DSTabBarItem.xib in Resources */,
+				B972DBD41D2BBC6E00341166 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B972DB8B1D2B9FD400341166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B972DBC01D2BB9F300341166 /* DSAddressBookController.m in Sources */,
+				B972DBB61D2BA60500341166 /* DSTabBarItem.m in Sources */,
+				B972DBCF1D2BBC5E00341166 /* AppDelegate.m in Sources */,
+				B972DBC61D2BBA1000341166 /* DSMineController.m in Sources */,
+				B972DBB01D2BA2D700341166 /* DSMainController.m in Sources */,
+				B972DBB31D2BA37100341166 /* DSTabBar.m in Sources */,
+				B972DBC31D2BBA0200341166 /* DSFindController.m in Sources */,
+				B972DBBD1D2BB9DD00341166 /* DSWeChatController.m in Sources */,
+				B972DB941D2B9FD400341166 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B972DBA01D2B9FD400341166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B972DBA11D2B9FD400341166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B972DBA41D2B9FD400341166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B972DBA51D2B9FD400341166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B972DBA71D2B9FD400341166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/HJ_WeChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adwan.HJ-WeChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B972DBA81D2B9FD400341166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/HJ_WeChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adwan.HJ-WeChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B972DB8A1D2B9FD400341166 /* Build configuration list for PBXProject "HJ_WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B972DBA41D2B9FD400341166 /* Debug */,
+				B972DBA51D2B9FD400341166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B972DBA61D2B9FD400341166 /* Build configuration list for PBXNativeTarget "HJ_WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B972DBA71D2B9FD400341166 /* Debug */,
+				B972DBA81D2B9FD400341166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B972DB871D2B9FD400341166 /* Project object */;
+}
